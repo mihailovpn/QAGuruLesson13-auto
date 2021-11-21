@@ -3,29 +3,41 @@ package cloud.autotests.tests;
 import cloud.autotests.helpers.DriverUtils;
 import cloud.autotests.tests.pages.DownloadPage;
 import cloud.autotests.tests.pages.MainPage;
+import com.codeborne.selenide.Condition;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static com.codeborne.selenide.Selenide.open;
-import static com.codeborne.selenide.Selenide.title;
+import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-public class GeneratedTests extends TestBase {
+public class DownloadPageTests extends TestBase {
 
     DownloadPage downloadPage = new DownloadPage();
     MainPage mainPage = new MainPage();
 
 
     @Test
-    @DisplayName("Page have Browser Support button")
-    void generatedTest() {
+    @DisplayName("Page have Main page button and it works")
+    void MainPageButtonTest() {
         step("Open url " + downloadPage.url, () ->
                 open(downloadPage.url));
 
-        step("Page have Browser Support button", () -> {
+        step("Click Main Page button", () -> {
+            downloadPage.clickMainPageButton();
+            $(mainPage.mainPageLogoLocator).should(Condition.text(mainPage.mainPageLogoText));
+        });
+    }
+
+    @Test
+    @DisplayName("Page have Browser Support button")
+    void browserSupportButtonTest() {
+        step("Open url " + downloadPage.url, () ->
+                open(downloadPage.url));
+
+        step("Click Browser Support button", () -> {
             downloadPage.clickBrowserSupportButton();
         });
     }
