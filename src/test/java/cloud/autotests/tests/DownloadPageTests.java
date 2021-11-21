@@ -6,6 +6,7 @@ import cloud.autotests.tests.pages.MainPage;
 import com.codeborne.selenide.Condition;
 import io.qameta.allure.AllureId;
 import io.qameta.allure.Description;
+import io.qameta.allure.Feature;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -21,6 +22,8 @@ public class DownloadPageTests extends TestBase {
 
 
     @Test
+    @Feature("DownloadPage")
+    @AllureId("5892")
     @DisplayName("Page have Main page button and it works")
     void MainPageButtonTest() {
         step("Open url " + downloadPage.url, () ->
@@ -33,6 +36,7 @@ public class DownloadPageTests extends TestBase {
     }
 
     @Test
+    @Feature("DownloadPage")
     @AllureId("5893")
     @DisplayName("Page have Browser Support button")
     void browserSupportButtonTest() {
