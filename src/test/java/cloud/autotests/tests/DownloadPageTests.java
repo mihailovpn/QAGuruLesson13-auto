@@ -4,6 +4,7 @@ import cloud.autotests.helpers.DriverUtils;
 import cloud.autotests.tests.pages.DownloadPage;
 import cloud.autotests.tests.pages.MainPage;
 import com.codeborne.selenide.Condition;
+import io.qameta.allure.AllureId;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -32,6 +33,7 @@ public class DownloadPageTests extends TestBase {
     }
 
     @Test
+    @AllureId("#5893")
     @DisplayName("Page have Browser Support button")
     void browserSupportButtonTest() {
         step("Open url " + downloadPage.url, () ->
