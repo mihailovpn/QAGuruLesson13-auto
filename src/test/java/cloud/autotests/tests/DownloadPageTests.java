@@ -33,7 +33,7 @@ public class DownloadPageTests extends TestBase {
     }
 
     @Test
-    @AllureId("#5893")
+    @AllureId("5893")
     @DisplayName("Page have Browser Support button")
     void browserSupportButtonTest() {
         step("Open url " + downloadPage.url, () ->
