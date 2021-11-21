@@ -27,6 +27,16 @@ Serve report:
 allure serve build/allure-results
 ```
 
+# Reports examples
 
-:heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
-:blue_heart: <a target="_blank" href="https://t.me/qa_automation">t.me/qa_automation</a>
+### Allure report
+![chrome_xBHBCtQnP6](https://user-images.githubusercontent.com/79403065/142772690-78588b21-f9d0-4d6d-8904-2ef9f0871c83.png)
+
+![chrome_L3t63IhB38](https://user-images.githubusercontent.com/79403065/142772672-dccd54ee-2b89-4d23-a456-39079dc0660e.png)
+
+![414209dd746383ef3d1857ef622f30d4_Trim](https://user-images.githubusercontent.com/79403065/142772934-e308f842-c60d-4980-892d-ec62aad0c2f7.gif)
+
+### Allure TestOps 
+
+![chrome_fctpiGtb2z](https://user-images.githubusercontent.com/79403065/142772774-15db2da4-93ab-4d78-b82d-6cab39e79ef8.png)
+
