@@ -5,7 +5,6 @@ import cloud.autotests.tests.pages.DownloadPage;
 import cloud.autotests.tests.pages.MainPage;
 import com.codeborne.selenide.Condition;
 import io.qameta.allure.AllureId;
-import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
