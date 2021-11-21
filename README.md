@@ -1,6 +1,4 @@
-![jenkins](https://user-images.githubusercontent.com/79403065/142773128-a6c4b155-b194-4625-9434-fb490b689f43.png)   ![allure](https://user-images.githubusercontent.com/79403065/142773175-a572014e-c6ee-4b75-831c-17dc6c196c9f.png)   ![allure testops](https://user-images.githubusercontent.com/79403065/142773177-afb6503f-c43b-4074-b2ea-56cc8ffb71b6.jpg)
-
-
+![jenkins](https://user-images.githubusercontent.com/79403065/142773218-2f658f1e-b1c1-4bc9-82c5-6d5ddd094405.png)   ![allure](https://user-images.githubusercontent.com/79403065/142773239-42307d2a-49c2-40b6-a849-d1688d70ce35.png)    ![allure testops](https://user-images.githubusercontent.com/79403065/142773197-229cc04a-5e72-4908-a7ef-910a923951eb.jpg)
 
 
 ## USAGE examples
